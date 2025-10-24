@@ -15,4 +15,5 @@ function submitForm(e) {
     console.log(Lastname.value)
     console.log(Password.value)
     firstname_result.innerHTML = Firstname.value
+    lastname_result.innerHTML = Lastname.value
 }
