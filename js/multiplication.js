@@ -7,7 +7,9 @@ function multplication(e){
     e.preventDefault()
     console.log(NumberA.value)
     console.log(NumberB.value)
-    console.log(NumberA.value*NumberB.value)
+    var multplication_result = NumberA.value * NumberB.value;
+    console.log(multplication_result)
+    P_element.innerHTML = multplication_result
 }
 Button.addEventListener("click",multplication)
 
@@ -19,6 +21,8 @@ function division(e){
     e.preventDefault()
     console.log(NumberC.value)
     console.log(NumberD.value)
-    console.log(NumberC.value/NumberD.value)
+    var divide_result = NumberC.value/NumberD.value
+    console.log(divide_result)
+    P_element.innerHTML = divide_result
 }
 ButtonB.addEventListener("click",division)
