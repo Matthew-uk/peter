@@ -1,7 +1,12 @@
-const button=document.getElementById("button")
-const list=document.getElementById("list")
-const ul=document.getElementById("ul")
+const button = document.getElementById('button');
+const list = document.getElementById('list'); // List is our input.
+const ul = document.getElementById('ul');
 
-function say_hello(){
-console.log("hello")
+var groceries = [];
+
+function addGroceries() {
+  groceries.push(list.value);
+  console.log(groceries);
 }
+
+button.addEventListener('click', addGroceries);
