@@ -1,7 +1,30 @@
-.title{
-    font-family: ;
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.container {
+  background-color: mediumblue;
+  color: white;
+  font-family: fantasy;
+  height: 100vh;
+  padding: 20px;
+}
 
+#list {
+  border: 2px solid grey;
+  background: white;
+  border-radius: 8px;
+  width: 300px;
+  height: 70px;
+}
 
-
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding-inline: 10px;
+  padding-block: 5px;
+  cursor: pointer;
+  border-radius: 5px;
 }
